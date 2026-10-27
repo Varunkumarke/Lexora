@@ -1,3 +1,6 @@
+
+
+
 // import React, { useState, useEffect, useRef } from "react";
 // import { LockKeyhole } from "lucide-react";
 // import { useNavigate } from "react-router-dom";
@@ -20,28 +23,28 @@
 // const CATEGORIES = [
 //   {
 //     id: "vocabulary",
-//     name: "Vocabulary",
+//     name: "Word Studio",
 //     tone: "ink",
 //     description: "Discover words, meanings, and how to use them.",
-//     action: "Explore Vocabulary",
+//     action: "Explore Word Studio",
 //   },
 //   {
 //     id: "Sentence Composition",
-//     name: "Sentence Composition",
+//     name: "Sentence Builder",
 //     tone: "indigo",
 //     description: "Learn to build clear, correct sentences.",
 //     action: "Coming Soon",
 //   },
 //   {
 //     id: "Text Composition",
-//     name: "Text Composition",
+//     name: "Writing Studio",
 //     tone: "paper",
 //     description: "Organize your ideas and express them in writing.",
 //     action: "Coming Soon",
 //   },
 //   {
 //     id: "Conversation",
-//     name: "Conversation",
+//     name: "Conversation Lab",
 //     tone: "lavender",
 //     description: "Practise expressing yourself in conversations.",
 //     action: "Coming Soon",
@@ -408,9 +411,9 @@
 //             <MenuIcon />
 //           </button>
 
-//           <button type="button" className="ui-brand" onClick={onHome} aria-label="learnsphere — dashboard">
+//           <button type="button" className="ui-brand" onClick={onHome} aria-label="Lexora — dashboard">
 //             <span className="ui-brand-mark" aria-hidden="true" />
-//             <span className="ui-brand-text">learnsphere</span>
+//             <span className="ui-brand-text">Lexora</span>
 //           </button>
 
 //           <nav className="ui-top-links" aria-label="Quick links">
@@ -452,7 +455,7 @@
 //         <div className="ui-drawer-head">
 //           <span className="ui-brand ui-brand--static">
 //             <span className="ui-brand-mark" aria-hidden="true" />
-//             <span className="ui-brand-text">learnsphere</span>
+//             <span className="ui-brand-text">Lexora</span>
 //           </span>
 //           <button
 //             type="button"
@@ -1070,10 +1073,10 @@
 //             </p>
 //             <div className="ui-hero-actions">
 //               {/* <button type="button" className="ui-primary-btn ui-primary-btn--lg" onClick={() => shellProps.onCategory("vocabulary")}>
-//                 Start with Vocabulary <ArrowIcon />
+//                 Start with Word Studio <ArrowIcon />
 //               </button> */}
 //               <button type="button" className="ui-primary-btn ui-primary-btn--lg" onClick={() => shellProps.onCategory("vocabulary")}>
-//                 <span>Start with Vocabulary</span>
+//                 <span>Start with Word Studio</span>
 //                 <ArrowIcon />
 //               </button>
 //               <button type="button" className="ui-ghost-btn" onClick={shellProps.onManual}>
@@ -1170,6 +1173,10 @@
 // }
 
 
+
+
+
+
 import React, { useState, useEffect, useRef } from "react";
 import { LockKeyhole } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -1224,20 +1231,60 @@ const CATEGORIES = [
 const GREETINGS = ["Hello", "नमस्ते", "నమస్కారం", "வணக்கம்", "Welcome", "స్వాగతం", "स्वागत है", "வரவேற்கிறோம்"];
 
 function getUserInfo() {
+  const firstNonEmpty = (...values) =>
+    values.find((value) => typeof value === "string" && value.trim())?.trim();
+
   try {
+    // Login and Google signup commonly store the returned user object separately
+    // from the JWT. Prefer that object because the JWT may contain only userId/exp.
+    let storedUser = null;
+    for (const key of ["user", "currentUser", "userData", "authUser"]) {
+      const raw = localStorage.getItem(key);
+      if (!raw) continue;
+
+      try {
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === "object") {
+          storedUser = parsed.user && typeof parsed.user === "object"
+            ? parsed.user
+            : parsed;
+          break;
+        }
+      } catch {
+        // Ignore keys that are plain strings rather than JSON.
+      }
+    }
+
+    let tokenPayload = {};
     const token = localStorage.getItem("token") || localStorage.getItem("authToken");
     if (token) {
       const parts = token.split(".");
       if (parts.length === 3) {
-        const payload = JSON.parse(atob(parts[1]));
-        return {
-          name: payload.name || payload.username || payload.sub || "User",
-          email: payload.email || "",
-        };
+        try {
+          tokenPayload = JSON.parse(atob(parts[1]));
+        } catch {
+          // A malformed or non-standard token should not block profile fallback.
+        }
       }
     }
-    const name = localStorage.getItem("userName") || localStorage.getItem("name") || "User";
-    const email = localStorage.getItem("userEmail") || localStorage.getItem("email") || "";
+
+    const name = firstNonEmpty(
+      storedUser?.name,
+      storedUser?.fullName,
+      storedUser?.username,
+      localStorage.getItem("userName"),
+      localStorage.getItem("name"),
+      tokenPayload.name,
+      tokenPayload.username,
+    ) || "User";
+
+    const email = firstNonEmpty(
+      storedUser?.email,
+      localStorage.getItem("userEmail"),
+      localStorage.getItem("email"),
+      tokenPayload.email,
+    ) || "";
+
     return { name, email };
   } catch {
     return { name: "User", email: "" };
@@ -2059,7 +2106,7 @@ export default function UserInterface() {
           <section className="ui-profile-head" aria-labelledby="profile-heading">
             <div className="ui-profile-avatar-lg" aria-hidden="true">{initials}</div>
             <div>
-              <h1 id="profile-heading" className="ui-page-title">{userInfo.name}</h1>
+              <h1 id="profile-heading" className="ui-page-title">{firstName}</h1>
               {userInfo.email && <p className="ui-page-subtitle">{userInfo.email}</p>}
             </div>
           </section>
