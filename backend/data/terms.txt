@@ -1,0 +1,1791 @@
+3d user interface
+3d video coding
+abc algorithms
+accuracy functions
+aco algorithms
+active appearance model
+active contour method
+actor-critic algorithms
+ada programming language
+adaboost algorithm
+adams software
+adaptive algorithm
+adaptive architecture
+adaptive beamforming algorithms
+adaptive critic designs
+adaptive dynamic programming
+adaptive filtering algorithms
+adaptive genetic algorithm
+adaptive modulation and coding
+adaptive modulation and coding 
+adaptive routing algorithm
+adjoint method
+admission control algorithms
+advanced video coding
+aerospace engineering
+aes algorithms
+affine projection algorithms
+agent architecture
+agent oriented software engineering
+agent-based approach
+agent-based architecture
+agent-based framework
+agent-oriented software engineering
+agile
+agile approaches
+agile development
+agile methodologies
+agile methods
+agile practices
+agile process
+agile software development
+ahp method
+ai applications
+alamouti codes
+algorithmic game theory
+algorithmic mechanism design
+all digital phase locked loop
+analog network coding
+android applications
+anomaly detection methods
+anomaly-detection algorithms
+answer set programming
+antenna design
+antenna pattern
+antenna radiation patterns
+anti-collision algorithms
+antivirus softwares
+apparent diffusion coefficient
+appearance model
+appearance modeling
+application engineering
+application execution
+application layer
+application layer multicast
+application mapping
+application server
+application specific integrated circuits
+application-layer multicast
+applications in subject areas
+applied mathematics
+approximate dynamic programming
+approximate inference
+approximate string matching
+approximation algorithm
+approximation bounds
+approximation coefficients
+approximation error
+approximation factor
+approximation methods
+approximation ratio
+approximation scheme
+approximation theory
+apriori algorithm
+ar application
+architectural design decisions
+architectural pattern
+architecture activity
+architecture analysis
+architecture assessment
+architecture concerns
+architecture description
+architecture description language
+architecture design
+architecture design decisions
+architecture documentation
+architecture evaluation
+architecture evolution
+architecture framework
+architecture knowledge
+architecture knowledge exploiting
+architecture knowledge management
+architecture knowledge modeling
+architecture knowledge reuse
+architecture knowledge sharing
+architecture maintenance
+architecture notation
+architecture performance analysis
+architecture reconstruction
+architecture recovery
+architecture supporting activities
+architecture tactic
+architecture technical debt
+architecture testing
+architecture types
+architecture verification and validation
+architecture viewpoint
+architecture-based testing
+architecture-supporting activity
+argumentation frameworks
+arithmetic coding
+artificial bee colony algorithm
+artificial bee colony algorithms (abc
+aspect oriented programming
+aspect oriented software development
+aspect-oriented programming
+aspect-oriented programming (aop
+aspect-oriented software
+aspect-oriented software development
+associative classification
+associative classifiers
+asynchronous design
+attribute reduction algorithm
+audio applications
+audio classification
+audio codecs
+audio coding
+augmented reality applications
+authentication methods
+auto encoders
+autoencoders
+automated debugging
+automated pattern recognition
+automatic classification
+automatic code generation
+automatic programming
+automatic test pattern generation
+automatic test pattern generation (atpg
+b spline functions
+back propagation algorithm
+back-stepping method
+background subtraction algorithms
+background subtraction method
+backoff algorithm
+backpropagation algorithm
+backstepping approach
+backstepping design
+bacteroides (class
+bandwidth allocation algorithms
+base classifiers
+baum-welch algorithm
+bayer pattern
+bayes classifier
+bayesian approach
+bayesian classification
+bayesian classifier
+bayesian framework
+bayesian method
+bayesian network classifiers
+beam pattern
+beam propagation method
+beam shaping
+beam-shaping
+beamforming algorithms
+belief propagation algorithm
+belief propagation decoding
+bessel function
+best approximations
+bidirectional reflectance distribution functions
+binary classification
+binary classification problems
+binary classifiers
+binary code
+binary coding
+binary linear codes
+binary patterns
+biometric applications
+bit interleaved coded modulation
+bit-interleaved coded modulation (bicm
+blind algorithms
+blind equalization algorithm
+block codes
+block matching algorithm
+boolean function
+boosting algorithm
+bp algorithm
+brain computer interface
+brain computer interface (bci
+brain machine interface
+brain-computer interface
+brain-computer interface (bci
+brain-machine interface
+branch-and-cut algorithms
+broadcast algorithm
+broadcasting algorithm
+broker pattern
+business process design
+business process re-engineering
+business process reengineering
+business process reengineering 
+bytecode
+c4.5 algorithm
+cache architecture
+cache design
+camshift algorithm
+capital
+capital financing
+capital investment
+capp
+cartesian genetic programming
+cascade classifiers
+case-based reasoning approaches
+centralized algorithms
+centralized architecture
+change detection algorithms
+channel code
+channel coding
+channel coding schemes
+channel decoding
+channel estimation algorithms
+channel estimation method
+chloroflexi 
+chromosome banding pattern
+chromosome mapping
+class d amplifier
+class diagram
+class information
+class labels
+class-ab
+classification
+classification algorithm
+classification approach
+classification label
+classification methods
+classification models
+classification performance
+classification process
+classification rates
+classification results
+classification rules
+classification system
+classification tasks
+classification technique
+classifier
+classifier ensemble
+classifier fusion
+classifier selection
+classroom teaching
+client-server architectures
+cloud computing
+cloud computing environments
+cloud computing services
+cloud data
+cloud environments
+cloud infrastructures
+cloud providers
+cloud security
+cloud service
+cloud service providers
+cloud software architecture
+cloud storage
+cloud systems
+cloud-based architecture
+cluster architecture
+clustering algorithm
+clustering approach
+clustering method
+coarse grained reconfigurable architecture
+cobol (programming language
+code acquisition
+code clone
+code division multiple access
+code division multiple access (cdma
+code division multiple access (cdma) systems
+code excited linear prediction
+code fragments
+code generation
+code generators
+code inspection
+code length
+code obfuscation
+code rates
+code smell
+code transformation
+code vectors
+code-division multiple access (cdma
+codebook
+codebook design
+codebook generation
+coded modulation
+coded packet
+coding efficiency
+coding errors
+coding gain
+coding mode
+coding performance
+coding scheme
+coding techniques
+coding theory
+cognitive architecture
+cohn-kanade database
+collaborative design
+collaborative filtering algorithms
+collaborative filtering methods
+collaborative software development
+collaborative softwares
+collision detection algorithm
+collocation method
+color classification
+color component
+color pattern
+coloring algorithms
+combinatorial algorithm
+combining classifiers
+common lyapunov functions
+common object request broker architecture
+common spatial patterns
+community detection algorithms
+competitive algorithms
+compiler
+compiler optimization
+complex software systems
+complexity class
+component
+component based
+component based approach
+component based architecture
+component based design
+component based software
+component based software design
+component based software development
+component based software engineering
+component based systems
+component behavior
+component composition
+component integration
+component model
+component model semantics
+component repository
+component selection
+component-and-connector
+component-based architecture
+component-based design
+component-based framework
+component-based software
+component-based software architecture
+component-based software development
+component-based software engineering
+component-based software systems
+component-based systems
+compression algorithms
+compression functions
+compression methods
+compute unified device architecture(cuda
+compute unified device architectures
+computer aided design
+computer aided design (cad
+computer aided design models
+computer aided engineering
+computer aided geometric design
+computer aided logic design
+computer application
+computer debugging
+computer interface
+computer programming
+computer programming - theory
+computer programming languages
+computer software maintenance
+computer software reusability
+computer systems programming
+computer systems programming - multiprocessing pro
+computer systems programming--multiprocessing prog
+computer vision applications
+computer-aided design
+computers, microprocessor - medical applications
+concatenated codes
+concatenated coding
+conceptual design
+concurrent data structures
+concurrent programming
+concurrent software
+conformal mapping
+conformance testing
+congestion control algorithm
+connected component analysis
+constant factor approximation
+constant modulus algorithm
+constant modulus algorithm (cma
+constant-factor approximation algorithms
+constraint logic programming
+constraint programming
+content-based approach
+context aware applications
+context-aware applications
+continuous query
+control design
+control lyapunov function
+controller design method
+convolutional code
+convolutional coding
+convolutional encoders
+correction method
+correlation algorithm
+correlation methods
+cosine functions
+course design
+covariance function
+creative design
+cross correlation methods
+cross-correlation function
+cross-layer approach
+cryptographic algorithms
+cryptographic hash functions
+cumulative distribution function
+curriculum design
+curriculum development
+cybersecurity framework
+cyclic code
+data clustering algorithm
+data compression algorithms
+data fusion algorithm
+data fusion methods
+data mining algorithm
+data mining applications
+data mining methods
+data-intensive application
+database
+database images
+database management
+database management system
+database schema
+database search
+database systems
+de algorithms
+de-noising algorithm
+debugging
+debugging process
+debugging tools
+decision tree classification
+decision tree classifiers
+decision-tree algorithm
+decode and forward
+decode-and-forward
+decode-and-forward (df
+decode-and-forward protocols
+decode-and-forward relay
+decode-and-forward relaying
+decoders
+decoding complexity
+decoding performance
+defuzzification method
+delay testing
+demodulation method
+denoising auto encoders
+denoising autoencoders
+denoising methods
+describing functions
+design activity
+design and control
+design automation
+design automation conference (dac
+design collaboration
+design concerns
+design decisions
+design domains
+design flow
+design for all
+design for testability
+design intent
+design knowledge
+design of algorithms
+design pattern
+design projects
+design rationale
+design reasoning
+design space exploration
+design tasks
+design team
+design theory and methodology
+design variables
+desktop applications
+detection algorithm
+development processes
+development strategy
+device architectures
+devops
+differential evolution algorithm
+diffraction patterns
+digital arithmetic
+digital audio
+digital audio broadcasting
+digital audio watermarking
+digital beam forming
+digital breast tomosynthesis
+digital cinema
+digital cmos
+digital collections
+digital communication
+digital communication systems
+digital communication systems--voice/data integrat
+digital content
+digital control
+digital control systems
+digital controllers
+digital devices
+digital entertainment
+digital evidence
+digital forensic
+digital games
+digital holograms
+digital holographic microscopy
+digital holography
+digital home
+digital identity
+digital image
+digital image forensics
+digital image processing
+digital image processing technique
+digital image storage
+digital image watermarking
+digital imaging and communication in medicine
+digital imaging and communications in medicine (di
+digital informations
+digital integrated circuits
+digital investigation
+digital library
+digital mammograms
+digital mammography
+digital media
+digital micro-mirror device
+digital objects
+digital photography
+digital preservation
+digital radio
+digital radiography
+digital rights
+digital rights management
+digital rights management (drm
+digital signal processing
+digital signal processor
+digital signal processor (dsp
+digital signals
+digital signature
+digital signature schemes
+digital storage
+digital subscriber line
+digital subscriber line (dsl
+digital television
+digital tools
+digital video
+digital video broadcasting
+digital video broadcasting (dvb
+digital watermarking
+digital watermarking technique
+digital-to-analog converters
+dijkstra algorithm
+dimensionality reduction algorithms
+dimensionality reduction method
+direct sequence code division multiple access
+direct sequence code division multiple access syst
+directional patterns (antenna
+dirty paper coding
+dirty-paper coding
+discontinuous galerkin method
+discrete element method
+discrete element method (dem
+discrete particle swarm optimization algorithm
+distributed algorithm
+distributed application
+distributed architecture
+distributed coding
+distributed coordination function (dcf
+distributed coordination functions
+distributed database
+distributed database systems
+distributed development
+distributed memory architecture
+distributed query
+distributed query processing
+distributed software development
+distributed source coding
+distributed space-time coding
+distributed video coding
+distribution algorithms
+distribution function
+diversity methods
+dna polymorphism
+doa estimation algorithms
+doa estimation method
+document classification
+domain engineering
+domestic appliances
+dominance-based rough set approach
+dsp application
+dual codes
+dyadic greens functions
+dynamic software architecture
+dynamic web applications
+e-business applications
+e-commerce applications
+e-learning application
+economic development
+edge detection algorithms
+edge detection methods
+eeg classification
+efficient algorithm
+efficient architecture
+eigenvalues and eigenfunctions
+electric appliances
+electric power supplies to apparatus
+electrical appliances
+electronic designs
+electronic product codes
+electronics engineering
+element-free galerkin method
+embedded application
+embedded software
+embedded system design
+emd method
+encoder-decoder
+encoder-decoder transformers
+encoders
+encoding time
+encryption algorithm
+encryption methods
+engineering
+engineering characteristics
+engineering curriculum
+engineering design
+engineering design problems
+engineering design process
+engineering drawing
+engineering research
+engineering structures
+engineers
+ensemble algorithms
+ensemble classification
+ensemble classifier
+ensemble methods
+enterprise architecture
+entropy coding
+equivalence class
+erasure codes
+erasure coding
+ergonomic design
+error correcting output code
+esprit algorithm
+estimation method
+estimation of distribution algorithm
+evolutionary algorithm
+evolutionary approach
+evolutionary programming
+exact algorithm
+expansion methods
+experience design
+exponential functions
+extreme programming
+face database
+face detection algorithm
+face detection methods
+face recognition algorithms
+face recognition methods
+facial action coding system
+factorization algorithms
+factorization methods
+fast fourier transform algorithm
+fast mode decision algorithm
+fast multipole method
+fastica algorithms
+fault diagnosis method
+fault-tolerant routing algorithm
+fcm algorithm
+fdtd method
+feature function
+feature selection methods
+feature-oriented programming
+feret database
+fft algorithm
+fiber optic components
+filter design
+fingerprint classification
+fingerprint database
+finite difference method
+finite difference time domain method
+finite element method
+finite element software
+finite-difference time-domain (fdtd) methods
+finite-difference time-domain method
+fir digital filters
+fir filter design
+first principal components
+fitness function
+fixture design
+forecasting methods
+formal approach
+formal framework
+formal method
+fortran (programming language
+fortran codes
+forwarding algorithms
+fp-growth algorithm
+fpga architectures
+fpga design
+fragile watermark
+fragile watermarking
+frequency domain approaches
+frequency-domain methods
+frequent pattern
+frequent pattern mining
+full search algorithm
+fully polynomial time approximation schemes
+function approximation
+function approximators
+function point
+function point analysis
+functional dependency
+functional languages
+functional programming
+functional programming languages
+functional programs
+functional requirement
+functional suitability
+fused-silica capillaries
+fusion algorithms
+fusion methods
+fuzzy c-means algorithm
+fuzzy c-means clustering algorithms
+fuzzy classification
+fuzzy classifier
+fuzzy clustering algorithms
+fuzzy clustering method
+fuzzy comprehensive evaluation method
+fuzzy controller design
+fuzzy evaluation method
+fuzzy linear programming
+fuzzy membership function
+fuzzy rule-based classifier
+galerkin method
+game design
+game designers
+game development
+gaussian components
+gaussian function
+gender classification
+gene expression programming
+gene function
+gene mapping
+generative programming
+generic programming
+genetic algorithm
+genetic algorithm (ga
+genetic code
+genetic database
+genetic network programming
+genetic polymorphism
+genetic programming
+genetic programming (gp
+gesture interfaces
+gis application
+global software development
+global software engineering
+goal-oriented requirements engineering
+government digitalization
+gpu programming
+gradient algorithm
+gradient methods
+graph algorithm
+graph class
+graph databases
+graph-based methods
+graph-matching algorithms
+graph-oriented databases
+graphic methods
+graphical user interface
+graphical user interfaces (gui
+green function
+grid applications
+grid architectures
+gui testing
+h.264 encoders
+h.264 video coding
+h.264/avc encoder
+h.264/avc video coding
+h.264/avc video coding standard
+handicapped persons
+handover algorithms
+handwritten digit
+handwritten digit recognition
+haptic interface
+hardware architecture
+hardware components
+hardware design
+hardware/software partitioning
+hash algorithm
+hash function
+head related transfer function
+heterogeneous database
+heterogeneous databases
+heuristic approaches
+heuristic programming
+heuristic search algorithms
+heuristic search methods
+hierarchical clustering algorithms
+hierarchical clustering methods
+high-efficiency video coding
+high-level programming language
+high-order methods
+high-quality software
+higher-order functions
+home appliances
+homotopy method
+homotopy perturbation method
+homotopy perturbation method (hpm
+household appliances
+huffman code
+huffman coding
+human computer interface
+human engineering
+human machine interface
+human system interface
+human-computer interface
+human-machine interface
+human-robot interface
+hybrid algorithm
+hybrid clouds
+hybrid evolutionary algorithm
+hybrid genetic algorithm
+hybrid optimization algorithm
+hybrid particle swarm optimization algorithm
+hyperspectral image classification
+ica algorithms
+ieee 802.11 distributed coordination functions
+iir digital filters
+image classification
+image coding
+image compression algorithms
+image database
+image databases
+image denoising algorithm
+image denoising methods
+image encryption algorithm
+image fusion algorithms
+image fusion methods
+image matching algorithm
+image reconstruction algorithm
+image registration algorithm
+image restoration algorithms
+image segmentation algorithm
+image watermarking algorithm
+imaging algorithm
+improved genetic algorithm
+improved particle swarm optimization algorithms
+impulse response functions
+ims learning design
+incremental development
+independent component analysis
+independent component analysis (ica
+independent component analysis(ica
+independent components
+individual classifiers
+inductive logic programming
+inductive logic programming (ilp
+industrial design
+inference algorithm
+influence function
+information system architecture
+information system development
+instructional design
+integrated circuit testing
+integrated services digital networks
+intelligent software agent
+interaction design
+interactive digital tv
+internet architecture
+interpolation algorithm
+intrinsic mode function
+introductory programming
+introductory programming course
+intrusion detection method
+inverse method
+iris code
+iris patterns
+iris recognition algorithm
+irregular ldpc codes
+iterative decoder
+iterative decoding
+iterative decoding algorithm
+java applications
+joint source channel coding
+joint source-channel coding
+k nearest neighbor algorithm
+k-means algorithm
+k-means clustering algorithm
+k-means clustering method
+k-means method
+k-nearest neighbor classifier
+k-nn algorithm
+k-nn classifier
+k-nn query
+kalman filter algorithms
+kalman filtering algorithms
+kaplan meier method
+kernel based methods
+kernel function
+kernel method
+knowledge discovery in database
+knowledge discovery in databases
+knowledge engineering
+knowledge engineers
+knowledge graphs engineering
+krylov subspace method
+lagrange multiplier method
+language design
+large image database
+laser beam shaping
+layered pattern
+layout algorithms
+ldpc code
+ldpc coding
+ldpc decoder
+learning design
+least mean square algorithms
+least squares approximations
+legacy applications
+legacy code
+legacy software
+level set approach
+level set functions
+level set method
+level-set method
+lexical database
+likelihood functions
+linear code
+linear genetic programming
+linear matrix inequality approach
+linear network coding
+linear pre-coding
+linear precoders
+linear precoding
+linear predictive coding
+linear predictive coding (lpc
+linear programming relaxation
+lmi approach
+lms algorithm
+load balancing algorithms
+local binary pattern
+local binary pattern (lbp
+local patterns
+localization algorithm
+localization method
+location-based applications
+logic design
+logic functions
+logic programming
+logical design
+longitudinal control
+lossless coding
+lossless compression algorithm
+lossless image coding
+lossy coding
+lossy source coding
+low density parity check (ldpc) codes
+low density parity check codes
+low power design
+low-density parity-check (ldpc) codes
+low-density parity-check codes
+low-power design
+lower and upper approximations
+lt codes
+lyapunov function
+lyapunov functional
+lyapunov method
+lyapunov-krasovskii functional
+machine design
+machine learning algorithms
+machine learning methods
+malicious code
+malicious software
+manifold learning algorithm
+many-core architecture
+map-matching algorithm
+mapping algorithms
+mapreduce frameworks
+mark-recapture method
+markov chain monte carlo algorithms
+markov chain monte carlo method
+mass functions
+matching algorithm
+matching methods
+matching pursuit algorithms
+mathematical method
+matlab- software
+maximum likelihood decoding
+maximum likelihood method
+maximum-likelihood decoding
+mcmc method
+mean shift algorithm
+mechanical design
+mechanism design
+medical database
+membership function
+memetic algorithm
+memory access patterns
+memory architecture
+memory interface
+memory modules
+mems design
+mesh-free method
+mesh-less methods
+meshfree method
+meshless method
+message authentication code
+message passing algorithm
+message passing interface
+message passing interface (mpi
+meta programming
+meta-heuristic approach
+meta-heuristic methods
+meta-programming
+method of fundamental solutions
+method of moments
+method of moments (mom
+metropolis-hastings algorithm
+microprogramming
+microservice architecture
+microservice-based architecture
+microservices
+microsoft sql server
+min ,max ,+) functions
+min-sum algorithm
+minimum classification error
+mining algorithms
+mining software repositories
+mixed finite element method
+mixed integer programming model
+mobile application
+mobile application development
+mobile cloud computing
+mobile clouds
+mobile phone applications
+mobility pattern
+model based testing
+model checking algorithm
+model driven architecture
+model driven development
+model driven engineering
+model view controller pattern
+model-based systems engineering
+model-based testing
+model-driven architecture
+model-driven development
+model-driven engineering
+model-driven software development
+modulation and coding schemes
+moment generating function
+moment method
+motion estimation algorithm
+motion planning algorithms
+mpi applications
+multi carrier code-division multiple-access system
+multi objective algorithm
+multi objective evolutionary algorithms
+multi processor architecture
+multi-agent approach
+multi-class classification
+multi-class classifier
+multi-class problems
+multi-core architectures
+multi-label classification
+multi-modal interfaces
+multi-objective evolutionary algorithm
+multi-objective genetic algorithm
+multi-objective programming
+multi-threaded application
+multi-tier applications
+multi-view video coding
+multiagent architecture
+multiagent framework
+multicarrier code division multiple access
+multicarrier code-division multiple access
+multicast algorithms
+multicast application
+multicast routing algorithms
+multichip modules
+multiclass classification
+multiclass classification problems
+multicomponent signals
+multicore architectures
+multicore programming
+multidisciplinary design optimization
+multimodal interface
+multiobjective programming
+multipath routing algorithms
+multiple classifier system
+multiple classifiers
+multiple description coding
+multiple description coding (mdc
+multiple lyapunov function
+multiple signal classification
+multiple signal classification (music
+multiple signal classification algorithm
+multiprogramming
+multiview video coding
+music algorithm
+music classification
+music database
+music genre classification
+naive bayes classifier
+naive bayesian classifier
+natural language interface
+navigation algorithms
+navigation patterns
+nearest neighbor classification
+negative selection algorithm
+network architecture
+network codes
+network coding
+network components
+network interface
+network traffic classification
+network-on-chip architectures
+neuro-fuzzy approach
+newtons method
+nlms algorithm
+noc architectures
+noc design
+noise reduction algorithms
+noise reduction methods
+noise shaping
+noise-shaping
+non-binary ldpc codes
+non-dominated sorting genetic algorithms
+non-equilibrium greens function
+non-fragile
+non-functional requirements
+non-negative matrix factorization algorithms
+nonexpansive mapping
+nonlinear function
+nosql
+novel architecture
+nsga-ii algorithm
+numerical integration methods
+numerical method
+object appearance
+object classification
+object detection algorithms
+object detection method
+object oriented approach
+object oriented database
+object oriented design
+object oriented method
+object oriented programming
+object oriented software
+object tracking algorithm
+object-oriented database
+object-oriented databases
+object-oriented design
+object-oriented programming
+object-oriented programming languages
+object-oriented software
+objective function (of
+observer design
+obstacle avoidance algorithms
+off-line algorithm
+omnidirectional radiation pattern
+on-line algorithm
+one way hash functions
+one-way hash function
+online algorithm
+online learning algorithms
+ontology design
+ontology development
+ontology engineering
+ontology mapping
+ontology pattern
+open source software
+open source software development
+open source software projects
+optical code division multiple access
+optical flow algorithm
+optical flow methods
+optical testing
+optical transfer function
+optimal design
+optimal design methods
+optimization algorithms
+optimization method
+optimizing compilers
+orientation distribution function
+orl face database
+orthogonal functions
+orthogonal space time block coding
+orthogonal space-time block codes
+overlapping communities
+p2p applications
+packet classification
+packet scheduling algorithm
+parallel algorithm
+parallel application
+parallel architecture
+parallel code
+parallel programming
+parallel programming model
+parametric polymorphism
+parsing algorithm
+particle filter algorithms
+particle filtering algorithms
+particle method
+particle swarm algorithm
+particle swarm optimization algorithm
+path planning method
+path-planning algorithm
+pattern
+pattern classification
+pattern classification problems
+pattern language
+pattern matching
+pattern matching algorithms
+pattern recognition
+pattern recognition systems
+pattern recognition, visual
+pattern synthesis
+payoff function
+pca method
+peer-to-peer application
+peer-to-peer architectures
+penalty function
+personal digital assistant
+perturbation method
+pervasive applications
+pervasive computing applications
+phase unwrapping
+photon mapping
+physical chromosome mapping
+physical layer network coding (pnc
+physical-layer network coding
+pid controller design
+piece-wise linear functions
+piecewise linear approximation
+pipeline architecture
+pipelined analog-to-digital converter
+pipelined architecture
+planning algorithms
+point cloud
+point spread function
+point spread function (psf
+point-spread function
+polar codes
+polarity classification
+polymorphism
+polymorphism, genetic
+polymorphism, restriction fragment length
+polymorphism, single nucleotide
+polynomial approximation
+polynomial time algorithm
+polynomial time approximation schemes
+polynomial-time algorithm
+polynomial-time approximation algorithms
+positioning methods
+post classification
+potential field methods
+power allocation algorithms
+power control algorithm
+pre-coding
+precoder
+precoder design
+precoding
+precoding matrix
+precoding scheme
+preconditioned conjugate gradient method
+prefix codes
+principal component
+principal component analysis
+principal component analysis (pca
+principle component
+principle component analysis
+principle component analysis (pca
+private cloud
+probabilistic framework
+probability density function
+probability density function (pdf
+probability distribution function
+process engineering
+process reengineering
+product design
+product development process
+product family design
+product line architecture
+product line engineering
+program compilers
+program debugging
+programming by demonstration
+programming course
+programming education
+programming framework
+programming language
+programming model
+programming theory
+projection method
+prolog (programming language
+prompt engineering
+proposed architectures
+protein database
+protocol testing
+pso algorithm
+pulsed laser applications
+q-learning algorithms
+qc ldpc codes
+qos routing algorithms
+quadratic lyapunov function
+quadratic programming problems
+quality of softwares
+quantitative trait locus mapping
+quasi-cyclic ldpc codes
+query answering
+query classification
+query containment
+query evaluation
+query execution
+query expansion
+query images
+query languages
+query log analysis
+query logs
+query optimization
+query optimizer
+query performance
+query processing
+query recommendations
+query results
+query rewriting
+query suggestion
+query terms
+query translation
+query tree
+question classification
+radial based function
+radial basis function
+radial basis function neural network
+radial basis function(rbf
+radial distribution functions
+radiation pattern
+radio interface
+radio-engineering
+random forest algorithm
+random forest classifier
+random linear network coding
+random network coding
+random walk algorithms
+random walk method
+randomized algorithm
+range query
+rapid manufacturing
+rapid prototype
+rapid prototyping
+rapid prototyping technology
+rapid tooling
+rapidly-exploring random trees
+rate control algorithms
+rate-distortion function
+re-engineering
+reactive programming
+real-time application
+real-time scheduling algorithms
+reasoning algorithms
+recognition algorithm
+recommendation algorithms
+recommendation methods
+reconfigurable architecture
+reconstruction algorithm
+recursive least square algorithms
+reengineering
+reference architecture
+reference software
+registration algorithms
+regression method
+regression testing
+regularization method
+reinforcement learning approach
+reinforcement learning method
+relational database
+relational database management systems
+relational database systems
+relational databases
+remote sensing image classification
+requirement engineering
+requirements engineering process
+requirements engineers
+resource description framework
+resource description framework (rdf
+restoration algorithm
+restoration methods
+restriction fragment length polymorphism
+retrieval algorithms
+retrieval methods
+reusable components
+reusable softwares
+reverse engineering
+reverse engineers
+reward function
+rfid applications
+rich internet applications
+rls algorithm
+robot applications
+robot design
+robot programming
+robotic applications
+robust control designs
+robust controller design
+router architecture
+routing algorithm
+rsa algorithms
+rule mining algorithms
+runge kutta methods
+runge-kutta method
+sa algorithm
+safety applications
+safety critical applications
+safety critical software
+scalable coding
+scalable video coding
+scalable video coding (svc
+scaling function
+scene classification
+schema mapping
+scientific applications
+scrum
+search patterns
+second-order cone programming
+secure software
+security architecture
+security engineering
+security framework
+security patterns
+security requirements engineering
+segmentation algorithms
+segmentation methods
+selected mapping
+selective mapping
+self-adaptive software
+self-dual codes
+self-stabilizing algorithm
+semantic web applications
+semi-fragile
+semi-fragile watermarking
+sensor network applications
+sentiment classification
+sequential quadratic programming
+service architecture
+service class
+service components
+service oriented architecture
+service-oriented architecture
+service-oriented architecture (soa
+shape functions
+shared data pattern
+shared memory architecture
+ship designs
+shortest path algorithm
+signal encoding
+signed distance function
+similarity query
+simple genetic algorithm
+simulated annealing algorithm
+simulated annealing method
+simultaneous localization and mapping
+simultaneous localization and mapping (slam
+simultaneous localization and mapping problems
+single nucleotide polymorphism
+skyline query
+slam algorithm
+slepian-wolf coding
+smart-phone applications
+soc designs
+social development
+social engineering
+social software
+soft computing methods
+soft decision decoding
+soft-decision decoding
+software
+software agent
+software aging
+software architecture
+software architecture analysis
+software architecture assessment
+software architecture decay
+software architecture design
+software architecture erosion
+software architecture evaluation
+software architecture patterns
+software architecture reconstruction
+software architecture reverse engineering
+software as a service
+software as a service (saas
+software bug
+software change
+software complexity
+software component
+software cost estimation
+software debugging
+software defect prediction
+software defects
+software defined radio (sdr
+software design
+software design patterns
+software developer
+software development
+software development life cycle
+software development methodologies
+software development methods
+software development organizations
+software development practices
+software development process
+software development projects
+software development teams
+software effort estimation
+software engineering
+software engineering course
+software engineering education
+software evolution
+software failure
+software fault
+software framework
+software industry
+software maintenance
+software measurement
+software metrics
+software model checking
+software organization
+software pipelining
+software process
+software process assessment
+software process improvement
+software process modeling
+software process models
+software product line
+software product line engineering
+software product quality
+software products
+software project
+software protection
+software quality
+software quality assurance
+software quality control
+software quality criteria
+software quality framework
+software quality models
+software quality planning
+software radio
+software re-use
+software receivers
+software reengineering
+software rejuvenation
+software reliability
+software reliability growth models
+software reliability models
+software repositories
+software requirements
+software requirements specifications
+software reusability
+software reuse
+software systems
+software teams
+software transactional memory
+software verification
+software visualization
+software vulnerabilities
+software-defined radio
+solution methods
+som algorithms
+source and channel coding
+source channel coding
+source code
+source code analysis
+source coding
+source-coding
+space time block code
+space time block coding
+space time code
+space time coding
+space-time block code
+space-time block coded
+space-time block coding
+space-time block coding (stbc
+space-time codes
+space-time coding
+space-time trellis codes
+sparse approximation
+sparse auto encoders
+sparse autoencoders
+spatial database
+spatial databases
+spatial query processing
+spatio-temporal database
+speckle patterns
+spectral clustering methods
+speech codecs
+speech coders
+speech coding
+speech database
+speech enhancement algorithm
+speech enhancement methods
+speech recognition software
+spline functions
+spreading codes
+sql
+sql injection
+sql query
+state space methods
+statistical methods
+steganographic algorithms
+stereo algorithms
+stereo matching algorithm
+stochastic approach
+stochastic approximation
+stochastic optimization algorithm
+stochastic programming
+streaming applications
+strength pareto evolutionary algorithm
+string matching algorithm
+structured query language
+structured query language (sql
+successive approximation register
+sum-product algorithm
+super resolution algorithms
+super-position coding
+superior longitudinal bundle
+superposition coding
+superresolution methods
+supervised classification
+supervised classifiers
+surface testing
+surveillance applications
+svm algorithm
+svm classification
+svm classifier
+switching functions
+syntactic pattern recognition
+system architecture
+system level design
+system on chip design
+system testing
+system-level design
+systems design
+systolic architecture
+tabu search algorithm
+tangible interface
+tangible user interface
+target classification
+target detection algorithm
+target tracking algorithm
+task-scheduling algorithms
+teaching method
+teaching programming
+technology mapping
+template matching method
+template-matching algorithms
+temporal database
+temporal databases
+test application time
+test pattern
+test pattern generation
+test pattern generator
+testing and debugging
+text classification
+text classification methods
+text classifiers
+threshold functions
+thresholding algorithms
+thresholding methods
+ti: sapphire laser
+time to digital converters
+time-domain methods
+time-frequency methods
+tomlinson-harashima precoding
+topology control algorithms
+topology optimization method
+tracking algorithm
+tracking application
+tracking method
+traffic classification
+traffic engineering
+training algorithm
+transaction database
+transceiver design
+transcoder
+transcoding
+transform coding
+transform methods
+trapping sets
+trellis coded modulation
+trellis codes
+trellis-coded modulation
+tuning method
+turbo code
+turbo coding
+turbo-coded
+type class
+ultrasonic testing
+ultrawideband applications
+uml class diagrams
+universal design
+unsupervised learning method
+usability engineering
+usability evaluation methods
+usability methods
+usability testing
+user centered design
+user interface
+user interface design
+user query
+user testing
+user-centered design
+user-computer interface
+utility function
+uwb applications
+value function
+value function approximation
+variational approaches
+variational approximation
+variational auto encoders
+variational autoencoders
+variational iteration method
+variational method
+vehicular applications
+venture capital
+verification method
+very long instruction word architecture
+video applications
+video classification
+video codec
+video coders
+video coding
+video coding schemes
+video coding standard
+video database
+video encoder
+video encodings
+video transcoding
+video-surveillance applications
+video-transcoding
+virtual classroom
+vision algorithms
+visual programming
+visual programming languages
+visualization method
+viterbi decoder
+viterbi decoding
+vlsi architecture
+vlsi design
+vocoders
+voip applications
+walking pattern
+water-shed algorithm
+watermarking algorithms
+watershed algorithm
+waveform design
+wavelet function
+weak classifiers
+web 2.0 applications
+web application
+web application development
+web application security
+web development
+web engineering
+web page classification
+web programming
+web-based applications
+wireless network coding
+within-class scatter matrix
+wlan applications
+workflow patterns
+wrapper approach
+wsn applications
+wyner-ziv coding
+wyner-ziv video coding
+xml database
+xml databases
+xml query processing
+xquery
+yale face database
