@@ -16,7 +16,7 @@ export default function Logo({ to = "/", onClick, size }) {
   return (
     <Link to={to} className="ls-logo" aria-label="learnsphere home" onClick={onClick}>
       <LogoMark size={size} />
-      <span className="ls-logo-word"><b>Lexora</b></span>
+      <span className="ls-logo-word"><b>Lexora Nexus</b></span>
     </Link>
   );
 }
