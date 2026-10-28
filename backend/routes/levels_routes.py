@@ -16,6 +16,7 @@
 # import traceback
 # import requests
 # from db import collection, db as app_db
+# from utils.dictionary_service import lookup_dictionary_word
 
 # # Load environment variables
 # load_dotenv()
@@ -905,23 +906,19 @@
 #                 cached_doc["created_at"] = cached_doc["created_at"].isoformat()
 #             return JSONResponse(content={"found": True, "data": cached_doc, "cached": True}, status_code=200)
 
-#         # 2. Fetch a real English dictionary entry for words not in MongoDB.
-#         dictionary_url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{requests.utils.quote(word)}"
-#         # api_response = requests.get(dictionary_url, timeout=12)
-#         api_response = requests.get(
-#             dictionary_url,
-#             headers={"User-Agent": "LexoraNexus/1.0", "Accept": "application/json"},
-#             timeout=12
-#         )
-#         if api_response.status_code == 404:
+#         # 2. Fetch a real English dictionary entry, with a fallback provider.
+#         entries, dictionary_source, dictionary_url = lookup_dictionary_word(word)
+#         if not entries:
 #             return JSONResponse(
-#                 content={"found": False, "message": f"No dictionary entry found for '{word}'."},
+#                 content={
+#                     "found": False,
+#                     "message": (
+#                         f"No dictionary entry found for '{word}', or all "
+#                         "dictionary providers are temporarily unavailable."
+#                     ),
+#                 },
 #                 status_code=200,
 #             )
-#         api_response.raise_for_status()
-#         entries = api_response.json()
-#         if not isinstance(entries, list) or not entries:
-#             return JSONResponse(content={"found": False, "message": f"No dictionary entry found for '{word}'."}, status_code=200)
 
 #         entry = entries[0]
 #         meanings = entry.get("meanings") or []
@@ -975,7 +972,7 @@
 #             "synonyms": list(dict.fromkeys(synonyms))[:6],
 #             "antonyms": list(dict.fromkeys(antonyms))[:6],
 #             "native": {},
-#             "source": "dictionaryapi.dev",
+#             "source": dictionary_source,
 #             "source_url": dictionary_url,
 #             "created_at": datetime.utcnow(),
 #         }
@@ -1000,7 +997,7 @@
 #         vocab_doc["_id"] = str(insert_result.inserted_id)
 #         vocab_doc["created_at"] = vocab_doc["created_at"].isoformat()
 #         return JSONResponse(
-#             content={"found": True, "data": vocab_doc, "cached": False, "source": "dictionaryapi.dev"},
+#             content={"found": True, "data": vocab_doc, "cached": False, "source": dictionary_source},
 #             status_code=200,
 #         )
 
@@ -1739,11 +1736,10 @@
 
 
 
-
-
 from fastapi import APIRouter, Request, Query, Path
 from fastapi.responses import JSONResponse
 from datetime import datetime
+import html
 from bson import ObjectId
 import os
 from dotenv import load_dotenv
@@ -2486,28 +2482,73 @@ def _fetch_related_words(word: str, relation: str, limit=6):
 
 
 def _translate_text(text: str, target_language: str) -> str:
-    """Translate English text through MyMemory; return empty when unavailable."""
+    """Translate English text using MyMemory, then a Google Translate fallback."""
     if not isinstance(text, str) or not text.strip():
         return ""
+
+    # Dictionary definitions can contain HTML links/tags. Translate readable text only.
+    clean_text = html.unescape(re.sub(r"<[^>]+>", " ", text))
+    clean_text = re.sub(r"\\s+", " ", clean_text).strip()
+    if not clean_text:
+        return ""
+
+    source_text = clean_text[:450]
+
+    # Provider 1: MyMemory
     try:
         response = requests.get(
             "https://api.mymemory.translated.net/get",
-            params={"q": text.strip()[:450], "langpair": f"en|{target_language}"},
+            params={
+                "q": source_text,
+                "langpair": f"en|{target_language}",
+            },
             timeout=7,
         )
         response.raise_for_status()
         payload = response.json()
         translated = (payload.get("responseData") or {}).get("translatedText", "")
-        if not isinstance(translated, str):
-            return ""
-        translated = translated.strip()
-        # MyMemory sometimes returns the original text when it cannot translate.
-        if not translated or translated.casefold() == text.strip().casefold():
-            return ""
-        return translated
+        if isinstance(translated, str):
+            translated = html.unescape(translated).strip()
+            if translated and translated.casefold() != source_text.casefold():
+                return translated
     except (requests.RequestException, ValueError, TypeError) as exc:
-        print(f"Translation lookup failed for language '{target_language}': {exc}")
-        return ""
+        print(f"MyMemory translation failed for '{target_language}': {exc}")
+
+    # Provider 2: Google Translate public endpoint (no API key required).
+    try:
+        response = requests.get(
+            "https://translate.googleapis.com/translate_a/single",
+            params={
+                "client": "gtx",
+                "sl": "en",
+                "tl": target_language,
+                "dt": "t",
+                "q": source_text,
+            },
+            headers={"User-Agent": "Mozilla/5.0 LexoraNexus/1.0"},
+            timeout=7,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        translated = "".join(
+            segment[0]
+            for segment in (payload[0] or [])
+            if isinstance(segment, list)
+            and segment
+            and isinstance(segment[0], str)
+        ).strip()
+        if translated and translated.casefold() != source_text.casefold():
+            return translated
+    except (
+        requests.RequestException,
+        ValueError,
+        TypeError,
+        IndexError,
+        KeyError,
+    ) as exc:
+        print(f"Google translation fallback failed for '{target_language}': {exc}")
+
+    return ""
 
 
 def _enrich_vocabulary_fields(doc: dict) -> dict:
