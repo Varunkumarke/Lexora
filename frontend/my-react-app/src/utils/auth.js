@@ -1,5 +1,5 @@
 
-export const API_URL = "http://localhost:8000/api/auth";
+export const API_URL = `${import.meta.env.VITE_API_URL}/api/auth`;
 
 /* -------------------------
    Email Validation

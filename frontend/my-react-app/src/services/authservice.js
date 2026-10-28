@@ -1,58 +1,9 @@
-// // services/authService.js
 
-// const API_URL = "http://localhost:8000/api/auth";
-
-// /* -------------------------
-//    Helper for API calls
-// -------------------------- */
-// const request = async (endpoint, data) => {
-//   const response = await fetch(`${API_URL}${endpoint}`, {
-//     method: "POST",
-//     headers: {
-//       "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify(data),
-//   });
-
-//   const result = await response.json();
-
-//   if (!response.ok) {
-//     throw new Error(result.message || "Something went wrong");
-//   }
-
-//   return result;
-// };
-
-// /* -------------------------
-//    Auth APIs
-// -------------------------- */
-// export const login = (data) => {
-//   return request("/login", data);
-// };
-
-// export const register = (data) => {
-//   return request("/register", data);
-// };
-
-// export const forgotPassword = (data) => {
-//   return request("/forgot-password", data);
-// };
-
-// export const resetPassword = (data) => {
-//   return request("/reset-password", data);
-// };
-
-// export const logout = () => {
-//   localStorage.removeItem("authToken");
-//   localStorage.removeItem("user");
-// };
 
 
 
 // services/authService.js
-
-const API_URL = "http://localhost:8000/api/auth";
-
+const API_URL = `${import.meta.env.VITE_API_URL}/api/auth`;
 const request = async (endpoint, data) => {
   const response = await fetch(`${API_URL}${endpoint}`, {
     method: "POST",

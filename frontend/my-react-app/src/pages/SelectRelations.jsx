@@ -32,11 +32,7 @@ const RELATIONS = [
   "thus",
 ];
 
-// const API_BASE_URL = "http://10.2.142.27:3003";
-
-// const API_BASE_URL = "http://10.2.141.243:3003";
-
-const API_BASE_URL = "http://localhost:8000/"
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/`
 
 export default function SelectRelations({
   task = null,
