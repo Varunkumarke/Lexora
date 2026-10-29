@@ -129,14 +129,23 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="Linguistic Learning Platform API", lifespan=lifespan)
+FRONTEND_URL = os.getenv(
+    "FRONTEND_URL",
+    "https://lexora-frontend-3bo3.onrender.com"
+)
+
+ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    FRONTEND_URL.rstrip("/"),
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 app.include_router(auth_routes, prefix="/api/auth")
 app.include_router(levels_routes)
 app.include_router(definition_routes)
