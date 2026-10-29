@@ -1,6 +1,7 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { AlertCircle, CheckCircle2, Eye, EyeOff, Info } from "lucide-react";
-import { googleLogin } from "../../services/authService";
+// import { googleLogin } from "../../services/authService";
+import { googleLogin } from "../../services/authservice";
 import { saveAuth } from "../../utils/auth";
 
 export function Alert({ kind = "error", children }) {

@@ -124,7 +124,8 @@ import {
   GoogleButton,
   PasswordField,
 } from "../components/public/Fields";
-import { register } from "../services/authService";
+// import { register } from "../services/authService";
+import { register } from "../services/authservice";
 import { isValidEmail } from "../utils/auth";
 import {
   getPasswordStrength,
