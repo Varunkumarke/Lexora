@@ -879,24 +879,30 @@ async def forgot_password(request: Request):
         frontend_url = os.getenv("FRONTEND_URL", "http://localhost:5173")
         reset_url = f"{frontend_url}/reset-password?token={reset_token}"
 
-        send_email(
+        email_sent = send_email(
             email,
             "Password Reset Request",
             f"""Hello {user_data['name']},
 
-Click the link below to reset your password:
+        Click the link below to reset your password:
 
-{reset_url}
+        {reset_url}
 
-This link will expire in 1 hour.
-""",
+        This link will expire in 1 hour.
+        """,
         )
+
+        if not email_sent:
+            print("Forgot password failed: email service returned False")
+            return JSONResponse(
+                status_code=500,
+                content={"message": "Unable to send password reset email. Please try again later."},
+            )
 
         return JSONResponse(
             status_code=200,
             content={"message": "Password reset link sent"},
         )
-
     except Exception as e:
         print("Forgot password error:", str(e))
         return JSONResponse(
